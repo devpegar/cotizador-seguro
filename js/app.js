@@ -39,7 +39,7 @@ Seguro.prototype.cotizarSeguro = function () {
   } else {
     cantidad *= 1.5;
   }
-  return cantidad;
+  return cantidad.toFixed(2);
 };
 
 function UI() {}
